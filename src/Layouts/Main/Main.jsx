@@ -1,10 +1,16 @@
 import React from 'react';
+import { Outlet } from 'react-router-dom';
+import Navbar from '../../Pages/Shared/Navbar/Navbar';
+import Footer from '../../Pages/Shared/Footer/Footer';
 
 const Main = () => {
   return (
     <div>
-      {/*<button cla="bg-blue-500 hover:bg-red-500 text-white font-bold py-2 px-4 rounded-full transition duration-300">Hover me!</button>*/}
-      <button>hover me</button>
+      <Navbar/>
+      <div className='max-w-7xl'>
+      <Outlet/>
+      </div>
+     <Footer/>
     </div>
   );
 };
