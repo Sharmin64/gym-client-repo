@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 //import DropOver from '../../../components/DropOver/DropOver';
 import Button from "../../../components/Button/Button";
 import logoImage from "../../../assets/logo/logoA.png";
@@ -6,6 +6,7 @@ import {Link} from "react-router-dom";
 import Navlinks from "../../../components/Navlinks/Navlinks";
 
 const Navbar = () => {
+  const [open, setOpen] = useState(false);
   //const navParts = (
   //  <>
   //    <li>Details</li>
@@ -15,14 +16,17 @@ const Navbar = () => {
   //  </>
   //)
   return (
-    <nav className="bg-white">
-      <div className="flex items-center font-medium justify-around">
-        <div>
+    <nav className="bg-white sticky top-0">
+      <div className="flex items-center font-medium justify-around ">
+        <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <img
             className="w-20 rounded-full md:cursor-pointer"
             src={logoImage}
             alt="logo"
           />
+          <div className="text-4xl md:hidden" onClick={() => setOpen(!open)}>
+            <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
+          </div>
         </div>
         <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppings]">
           <li>
@@ -32,7 +36,25 @@ const Navbar = () => {
           </li>
           <Navlinks />
         </ul>
-        <Button buttonName="Join_Now" />
+        <div className="md:block hidden">
+          <Button buttonName="Join_Now" />
+        </div>
+        {/*  mobile navbar*/}
+        <ul
+          className={`md:hidden bg-white absolute w-full h-full bottom-0 py-24 pl-4 duration-500 ${
+            open ? "left-0" : "left-[-50%]"
+          }`}
+        >
+          <li>
+            <Link to="/" className="py-7 px-3 inline-block">
+              Home
+            </Link>
+          </li>
+          <Navlinks />
+          <div className="py-5">
+            <Button buttonName="Join_Now" />
+          </div>
+        </ul>
       </div>
     </nav>
   );
