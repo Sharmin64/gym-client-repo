@@ -1,12 +1,12 @@
 import React from "react";
-import dumbleMan from "../../assets/banner/dumble-man.png";
+import dumbleMan from "../../assets/banner/gymBanner.jpg";
 //import bannerCircleOne from "../../assets/banner/banner-circle-one.png";
 
 const Banner = () => {
   return (
     <section>
       <div
-        className="hero lg:h-[92vh] h-[70vh] bg-gradient-to-r from-red-400 via-red-400 to-red-600 bg-transparent bg-clip-bg"
+        className="hero lg:h-[92vh] h-[70vh] bg-gradient-to-r from-red-400 via-red-400 to-red-600 bg-transparent bg-clip-bg flex-end"
         style={{
           backgroundImage: `url(${dumbleMan})`,
           backgroundPosition: "right",

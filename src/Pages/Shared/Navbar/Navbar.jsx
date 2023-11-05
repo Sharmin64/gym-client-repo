@@ -39,7 +39,7 @@ const Navbar = () => {
         <div className="md:block hidden">
           <Button buttonName="Join_Now" />
         </div>
-        {/*  mobile navbar*/}
+        {/* mobile nav */}
         <ul
           className={`md:hidden bg-white absolute w-full h-full bottom-0 py-24 pl-4 duration-500 ${
             open ? "left-0" : "left-[-50%]"
@@ -85,3 +85,5 @@ export default Navbar;
 </div>
 </div>*/
 }
+
+//?  <div className="container mx-auto">
