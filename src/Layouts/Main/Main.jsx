@@ -1,16 +1,21 @@
-import React from 'react';
-import { Outlet } from 'react-router-dom';
-import Navbar from '../../Pages/Shared/Navbar/Navbar';
-import Footer from '../../Pages/Shared/Footer/Footer';
+import React from "react";
+import {Outlet} from "react-router-dom";
+import Navbar from "../../Pages/Shared/Navbar/Navbar";
+import Footer from "../../Pages/Shared/Footer/Footer";
 
 const Main = () => {
+  const bgImage = {
+    backgroundImage: 'url("../../assets/banner/dumble-man.png")',
+    backgroundSize: "cover",
+    backgroundRepeat: "no-repeat",
+  };
   return (
-    <div>
-      <Navbar/>
-      <div className='max-w-7xl'>
-      <Outlet/>
+    <div className="min-w-screen">
+      <Navbar />
+      <div style={{bgImage}}>
+        <Outlet />
       </div>
-     <Footer/>
+      <Footer />
     </div>
   );
 };

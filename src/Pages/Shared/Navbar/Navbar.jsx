@@ -16,7 +16,7 @@ const Navbar = () => {
   //  </>
   //)
   return (
-    <nav className="bg-white sticky top-0">
+    <nav className="bg-white sticky top-0  ">
       <div className="flex items-center font-medium justify-around ">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <img

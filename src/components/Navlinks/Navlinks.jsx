@@ -17,16 +17,16 @@ const Navlinks = () => {
     <>
       <div className="container mx-auto">
         <ul className="flex justify-center space-x-6 text-blue-500  font-semibold">
-          <li className="relative group">
+          <li className="relative group ">
             <a href="/">Fitness</a>
-            <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block">
-              <li>
+            <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block hover:translate-x-2 cursor-pointer">
+              <li className=" hover:scale-x-100">
                 <a href="/">Submenu Item 1</a>
               </li>
-              <li>
+              <li className=" hover:scale-x-100">
                 <a href="/">Submenu Item 2</a>
               </li>
-              <li>
+              <li className=" hover:scale-x-100">
                 <a href="/">Submenu Item 3</a>
               </li>
             </ul>
