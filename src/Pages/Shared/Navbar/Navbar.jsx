@@ -1,8 +1,8 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 //import DropOver from '../../../components/DropOver/DropOver';
 import Button from "../../../components/Button/Button";
 import logoImage from "../../../assets/logo/logoA.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Navlinks from "../../../components/Navlinks/Navlinks";
 
 const Navbar = () => {
@@ -16,7 +16,7 @@ const Navbar = () => {
   //  </>
   //)
   return (
-    <nav className="bg-white sticky top-0  ">
+    <nav className="bg-white sticky top-0 z-50 ">
       <div className="flex items-center font-medium justify-around ">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <img

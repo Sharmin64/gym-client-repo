@@ -2,7 +2,7 @@ import React from "react";
 
 const Navlinks = () => {
   //const links = [
-  //  {name: "About Us", id: 1},
+  //  {name: "About Us", id: 1,page:<About/>},
   //  {
   //    name: "Classes",
   //    id: 2,

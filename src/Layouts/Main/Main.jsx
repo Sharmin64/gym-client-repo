@@ -1,5 +1,5 @@
 import React from "react";
-import {Outlet} from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import Navbar from "../../Pages/Shared/Navbar/Navbar";
 import Footer from "../../Pages/Shared/Footer/Footer";
 
@@ -10,9 +10,9 @@ const Main = () => {
     backgroundRepeat: "no-repeat",
   };
   return (
-    <div className="min-w-screen">
+    <div className="min-w-screen overflow-hidden">
       <Navbar />
-      <div style={{bgImage}}>
+      <div style={{ bgImage }}>
         <Outlet />
       </div>
       <Footer />

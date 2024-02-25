@@ -5,7 +5,7 @@ const GymCard = () => {
   return (
     <div>
       <div className="grid grid-cols-3 font-sans ">
-        <div className="card w-96 bg-base-100 shadow-xl image-full hover:scale-110 transition duration-500 hover:skew-y-6 md:transform-none  transform-gpu preserve-3d ">
+        <div className="card w-96 bg-base-100 shadow-xl image-full hover:scale-110 transition duration-500 hover:skew-y-6 md:transform-none  [transform-style:preserve-3d] ">
           <figure>
             <img src={gymGuy} alt="guy" />
           </figure>
