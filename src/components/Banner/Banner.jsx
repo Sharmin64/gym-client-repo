@@ -1,6 +1,7 @@
 import React from "react";
 //import dumbleMan from "../../assets/banner/gym-banner.jpg";
 import HoverCarousel from "hover-carousel";
+import "./Banner.css";
 //import bannerCircleOne from "../../assets/banner/banner-circle-one.png";
 
 const Banner = () => {
@@ -13,9 +14,9 @@ const Banner = () => {
     "https://i.ibb.co/FhYkv50/banner-7.jpg",
   ];
   return (
-    <section className=" z-10">
+    <section className=" z-10 bg-image">
       <div className=" relative top-16 w-screen z-10">
-        <h1 className="text-5xl h-[70vh] mt-28 text-center pt-10 uppercase bg-[#c5b9cd] text-[#111111]">
+        <h1 className="text-5xl h-[70vh] text-center pt-10 uppercase text-[#fffcfc] font-[Kode Mono]">
           Work Hard to Get Better Life
         </h1>
         <div className="h-auto absolute bottom-16">

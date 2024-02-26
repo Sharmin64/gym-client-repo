@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Navlinks = () => {
   //const links = [
@@ -18,58 +19,58 @@ const Navlinks = () => {
       <div className="container mx-auto">
         <ul className="flex justify-center space-x-6 text-blue-500  font-semibold">
           <li className="relative group ">
-            <a href="/">Fitness</a>
+            <Link to="/fitness">Fitness</Link>
             <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block hover:translate-x-2 cursor-pointer">
               <li className=" hover:scale-x-100">
-                <a href="/">Submenu Item 1</a>
+                <Link to="/">Submenu Item 1</Link>
               </li>
               <li className=" hover:scale-x-100">
-                <a href="/">Submenu Item 2</a>
+                <Link to="/">Submenu Item 2</Link>
               </li>
               <li className=" hover:scale-x-100">
-                <a href="/">Submenu Item 3</a>
+                <Link to="/">Submenu Item 3</Link>
               </li>
             </ul>
           </li>
           <li className="relative group">
-            <a href="/about">About</a>
+            <Link to="/about">About</Link>
             <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block">
               <li>
-                <a href="/">Submenu Item 1</a>
+                <Link to="/">Submenu Item 1</Link>
               </li>
               <li>
-                <a href="/">Submenu Item 2</a>
+                <Link to="/">Submenu Item 2</Link>
               </li>
               <li>
-                <a href="/">Submenu Item 3</a>
+                <Link to="/">Submenu Item 3</Link>
               </li>
             </ul>
           </li>
           <li className="relative group">
-            <a href="/services">Services</a>
+            <Link to="/services">Services</Link>
             <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block">
               <li>
-                <a href="/">Submenu Item 1</a>
+                <Link to="/">Submenu Item 1</Link>
               </li>
               <li>
-                <a href="/">Submenu Item 2</a>
+                <Link to="/">Submenu Item 2</Link>
               </li>
               <li>
-                <a href="/">Submenu Item 3</a>
+                <Link to="/">Submenu Item 3</Link>
               </li>
             </ul>
           </li>
           <li className="relative group">
-            <a href="/contact">Contact</a>
+            <Link to="/contact">Contact</Link>
             <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block">
               <li>
-                <a href="/">Submenu Item 1</a>
+                <Link to="/">Submenu Item 1</Link>
               </li>
               <li>
-                <a href="/">Submenu Item 2</a>
+                <Link to="/">Submenu Item 2</Link>
               </li>
               <li>
-                <a href="/">Submenu Item 3</a>
+                <Link to="/">Submenu Item 3</Link>
               </li>
             </ul>
           </li>
