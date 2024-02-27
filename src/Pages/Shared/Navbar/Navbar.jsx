@@ -16,7 +16,7 @@ const Navbar = () => {
   //  </>
   //)
   return (
-    <nav className="bg-white sticky top-0 z-50 ">
+    <nav className="bg-white sticky top-0 z-50 md:bg-base-100">
       <div className="flex items-center font-medium justify-around ">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <img
@@ -30,7 +30,7 @@ const Navbar = () => {
         </div>
         <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppings]">
           <li>
-            <Link to="/" className="py-7 px-3 inline-block">
+            <Link to="/" className="py-7 px-3 block">
               Home
             </Link>
           </li>
@@ -41,17 +41,15 @@ const Navbar = () => {
         </div>
         {/* mobile nav */}
         <ul
-          className={`md:hidden bg-white absolute w-full h-full bottom-0 py-24 pl-4 duration-500 ${
+          className={`md:items-center pb-0 md:pb-12 md:static md:z-auto z-[-1] left-0 md:hidden bg-white absolute w-full h-full bottom-10 py-24 md:w-auto md:pl-0  pl-9 duration-500  ${
             open ? "left-0" : "left-[-50%]"
           }`}
         >
-          <li>
-            <Link to="/" className="py-7 px-3 inline-block">
-              Home
-            </Link>
+          <li className="py-12 w-36 px-3 inline-block">
+            <Link to="/">Home</Link>
           </li>
           <Navlinks />
-          <div className="py-5">
+          <div className="py-12">
             <Button buttonName="Join_Now" />
           </div>
         </ul>

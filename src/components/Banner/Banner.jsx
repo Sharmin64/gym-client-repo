@@ -16,7 +16,7 @@ const Banner = () => {
   return (
     <section className=" z-10 bg-image">
       <div className=" relative top-16 w-screen z-10">
-        <h1 className="text-5xl h-[70vh] text-center pt-10 uppercase text-[#fffcfc] font-[Kode Mono]">
+        <h1 className="text-5xl h-[70vh] text-center pt-10 uppercase text-[#fffcfc] font-heading">
           Work Hard to Get Better Life
         </h1>
         <div className="h-auto absolute bottom-16">
