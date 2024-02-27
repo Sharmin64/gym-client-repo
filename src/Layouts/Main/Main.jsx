@@ -10,7 +10,7 @@ const Main = () => {
     backgroundRepeat: "no-repeat",
   };
   return (
-    <div className="min-w-screen overflow-hidden">
+    <div className="max-w-screen overflow-hidden">
       <Navbar />
       <div style={{ bgImage }}>
         <Outlet />

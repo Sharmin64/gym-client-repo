@@ -1,9 +1,8 @@
 .bg-image {
-  background-image: url("../../assets/bg-images/gymBodyBuilder.jfif");
+  background-image: url("../../assets/bg-images/img-6.webp");
   background-size: cover;
   background-repeat: no-repeat;
   margin-bottom: 2em;
   margin-top: 2em;
-  color: beige;
   padding-bottom: 10em;
 }

@@ -21,7 +21,7 @@ const Navlinks = () => {
           <li className="relative group ">
             <Link to="/fitness">Fitness</Link>
             <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block hover:translate-x-2 cursor-pointer">
-              <li className=" hover:scale-x-100">
+              <li className=" hover:scale-x-100 transition-shadow duration-100">
                 <Link to="/">Submenu Item 1</Link>
               </li>
               <li className=" hover:scale-x-100">

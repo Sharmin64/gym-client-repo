@@ -6,7 +6,7 @@ import GymCard from "../../../components/GymCard/GymCard";
 const Home = () => {
   return (
     <>
-      <div className="flex items-center justify-center h-[34%]">
+      <div className="flex items-center justify-center w-full">
         <Banner />
       </div>
       <GymCard />
