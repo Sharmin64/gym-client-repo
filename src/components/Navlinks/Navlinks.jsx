@@ -18,21 +18,21 @@ const Navlinks = () => {
     <>
       <div className="container mx-auto">
         <ul className="flex justify-center space-x-6 text-blue-500  font-semibold">
-          <li className="relative group ">
+          <li className="relative group hover:text-slate-500">
             <Link to="/fitness">Fitness</Link>
-            <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block hover:translate-x-2 cursor-pointer transition-all duration-150 group">
-              <li className=" hover:scale-x-100">
-                <Link to="/">Submenu Item 1</Link>
+            <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block hover:translate-x-2 cursor-pointer group">
+              <li className=" hover:scale-x-200">
+                <Link to="/submenu1">Submenu Item 1</Link>
               </li>
               <li className=" hover:scale-x-100 ">
-                <Link to="/">Submenu Item 2</Link>
+                <Link to="/submenu2">Submenu Item 2</Link>
               </li>
               <li className=" hover:scale-x-100">
-                <Link to="/">Submenu Item 3</Link>
+                <Link to="/submenu3">Submenu Item 3</Link>
               </li>
             </ul>
           </li>
-          <li className="relative group">
+          <li className="relative group hover:text-slate-500">
             <Link to="/about">About</Link>
             <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block">
               <li>
@@ -46,7 +46,7 @@ const Navlinks = () => {
               </li>
             </ul>
           </li>
-          <li className="relative group">
+          <li className="relative group hover:text-slate-500">
             <Link to="/services">Services</Link>
             <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block">
               <li>
@@ -60,7 +60,7 @@ const Navlinks = () => {
               </li>
             </ul>
           </li>
-          <li className="relative group">
+          <li className="relative group hover:text-slate-500 duration-150">
             <Link to="/contact">Contact</Link>
             <ul className="absolute hidden mt-2 space-y-2 bg-white text-blue-500 border border-gray-300 rounded-lg shadow-lg group-hover:block">
               <li>

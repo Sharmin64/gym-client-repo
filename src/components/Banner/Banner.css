@@ -9,4 +9,6 @@
 
 .font-heading {
   font-family: "Stick No Bills", sans-serif;
+  color-scheme: inherit;
+  text-shadow: 3em;
 }

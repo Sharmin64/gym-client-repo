@@ -16,7 +16,7 @@ const Navbar = () => {
   //  </>
   //)
   return (
-    <nav className="bg-white sticky top-0 z-50 md:bg-base-100">
+    <nav className="bg-gray sticky top-0 z-50 md:bg-base-100">
       <div className="flex items-center font-medium justify-around ">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <img
@@ -28,7 +28,7 @@ const Navbar = () => {
             <ion-icon name={`${open ? "close" : "menu"}`}></ion-icon>
           </div>
         </div>
-        <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppings]">
+        <ul className="md:flex hidden uppercase items-center gap-8 font-[Poppings] ">
           <li>
             <Link to="/" className="py-7 px-3 block">
               Home
