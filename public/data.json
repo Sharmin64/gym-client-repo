@@ -1,0 +1,53 @@
+[
+    {
+        "id":1,
+      "image": "https://i.ibb.co/262Td4k/roping-Man.jpg",
+      "details": "Power Up Fitness",
+      "description": "This gym offers a wide variety of cardio and strength training equipment, as well as group fitness classes. They also have a pool and sauna.",
+      "schedule": "6:00 AM - 10:00 PM", 
+      "price":"$49" 
+    },
+    {
+        "id":2,
+      "image": "https://i.ibb.co/VNrGrXx/walker-Man.jpg",
+      "details": "Tranquility Yoga Studio",
+      "description": "This yoga studio offers a variety of yoga classes, from beginner to advanced. They also have meditation workshops and pilates classes.",
+      "schedule": "6:00 AM - 10:00 AM",
+      "price":"$20" 
+    },
+    {
+        "id":3,
+      "image": "https://i.ibb.co/3F53CqR/images-q-tbn-ANd9-Gc-RG4-Mm-QPQEa-RTI8f-C9-JCh-BGe-AH6-X78-Ei4gac5i-U7pq-HE9-Aze-La-WNNW8y7-YBAg-s.jpg",
+      "details": "Knockout Boxing Club",
+      "description": "This boxing gym offers training for all levels, from recreational boxing to professional competition. They also have Muay Thai and kickboxing classes.",
+      "schedule":"5:00 AM - 9:00 PM",
+      "price":"$79" 
+    },
+    {
+        "id":4,
+      "image": "https://i.ibb.co/5cQstZT/images-q-tbn-ANd9-Gc-RVd7-LMvo-Gh-WAPCl29y09ibsw-Ae-Ml-Cs-Cu-CBo9-BWBxz-42m-L-SSn-Gk-RKD-b-LYg-s.jpg",
+      "details": "Rhythm Cycle Studio",
+      "description": "This boutique spin studio offers high-energy indoor cycling classes. They also have yoga and strength training classes available.",
+      "schedule":"5:00 AM - 9:00 PM", 
+      "price": "$25"
+    },
+    {
+        "id":5,
+      "image": "https://i.ibb.co/FnKDPTk/images-q-tbn-ANd9-Gc-Todn9bq-Eur-E5ohxff-SSZDLG3-Oe-QTt-QL3qj8kr-YMuk-JXLk-J7-HYm-U-4-B8-Y0-Ef-Q-s.jpg",
+      "details": "Vertical Limits Climbing Gym",
+      "description": "This climbing gym offers a variety of climbing walls for all skill levels. They also have bouldering areas and yoga classes.",
+      "schedule": "10:00 AM - 10:00 PM",
+      "price":  "$20"
+    },
+    {
+        "id":6,
+      "image": "https://i.ibb.co/fvyD7L7/swiming-Man.jpg",
+      "details": "Aqua Splash Family Center",
+      "description": "This family fitness center offers a lap pool, a leisure pool with slides, a fitness center, and group fitness classes.",
+      "schedule":"8:00 AM - 8:00 PM",
+      "price":"$39" 
+    }
+]
+
+
+
