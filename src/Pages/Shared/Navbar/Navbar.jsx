@@ -16,8 +16,8 @@ const Navbar = () => {
   //  </>
   //)
   return (
-    <nav className="bg-gray-50 sticky top-0 z-50 md:bg-base-100">
-      <div className="flex items-center font-medium justify-around ">
+    <nav className="sticky top-0 z-20 bg-grey-100/50 ">
+      <div className="flex items-center font-medium justify-around">
         <div className="z-50 p-5 md:w-auto w-full flex justify-between">
           <img
             className="w-20 rounded-full md:cursor-pointer"

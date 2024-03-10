@@ -4,7 +4,7 @@ import GymPerson from "../GymPerson/GymPerson";
 const GymCard = () => {
   const [fitness, setFitness] = useState([]);
   useEffect(() => {
-    fetch("/data.json") // Replace '/data.json' with your actual file path
+    fetch("/data.json")
       .then((response) => response.json())
       .then((fitness) => setFitness(fitness));
   }, []);

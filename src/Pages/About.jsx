@@ -1,11 +1,12 @@
 import React from "react";
 import Navbar from "./Shared/Navbar/Navbar";
+import AboutProgram from "../components/AboutProgram/AboutProgram";
 
 const About = () => {
   return (
     <div>
       <Navbar />
-      About my fitness website will be render here.
+      <AboutProgram />
     </div>
   );
 };

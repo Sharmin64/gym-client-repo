@@ -3,7 +3,7 @@ import React from "react";
 const GymPerson = ({ person }) => {
   const { image, details, description, schedule, price } = person;
   return (
-    <div className="card w-96 bg-gray-200 text-slate-900 shadow-xl">
+    <div className="card w-96 bg-gray-200 text-slate-900 shadow-xl mx-auto">
       <figure>
         <img src={image} alt="image" />
       </figure>
